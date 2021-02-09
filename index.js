@@ -15,7 +15,7 @@ app.get('/', (req, res)=>{
 
 const mssql = require('mssql')
 const dbConfig = {
-      server: 'localhost',
+      server: '172.24.99.254',
       database: 'db_zadanie',
       user: 'SA',
       password: 'Miriam123.',

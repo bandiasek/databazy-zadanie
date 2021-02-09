@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.d22a1f9d.chunk.css",
-    "main.js": "/static/js/main.f2737de8.chunk.js",
-    "main.js.map": "/static/js/main.f2737de8.chunk.js.map",
+    "main.css": "/static/css/main.fcc6219d.chunk.css",
+    "main.js": "/static/js/main.6c058303.chunk.js",
+    "main.js.map": "/static/js/main.6c058303.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c012fedc.js",
     "runtime-main.js.map": "/static/js/runtime-main.c012fedc.js.map",
     "static/js/2.615e9b5b.chunk.js": "/static/js/2.615e9b5b.chunk.js",
     "static/js/2.615e9b5b.chunk.js.map": "/static/js/2.615e9b5b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.d22a1f9d.chunk.css.map": "/static/css/main.d22a1f9d.chunk.css.map",
+    "static/css/main.fcc6219d.chunk.css.map": "/static/css/main.fcc6219d.chunk.css.map",
     "static/js/2.615e9b5b.chunk.js.LICENSE.txt": "/static/js/2.615e9b5b.chunk.js.LICENSE.txt",
+    "static/media/NavIcon.5b0f8419.svg": "/static/media/NavIcon.5b0f8419.svg",
     "static/media/App.css": "/static/media/WaterMark.08a569c6.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c012fedc.js",
     "static/js/2.615e9b5b.chunk.js",
-    "static/css/main.d22a1f9d.chunk.css",
-    "static/js/main.f2737de8.chunk.js"
+    "static/css/main.fcc6219d.chunk.css",
+    "static/js/main.6c058303.chunk.js"
   ]
 }
