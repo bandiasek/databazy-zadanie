@@ -1,0 +1,299 @@
+    1  sudo apt update
+    2  sudo apt install git
+    3  cat /etc/shells 
+    4  wich git-shell
+    5  cat /usr/bin/git-shell
+    6  cat /usr/bin
+    7  clear
+    8  cd /usr/bin
+    9  ls
+   10  cat git
+   11  clear
+   12  sudo vim /etc/shells /usr/bin/git-shell
+   13  ls
+   14  cat /etc/shells
+   15  which 
+   16  which git-shell
+   17  sudo vim /etc/shells 
+   18  sudo ufw enable
+   19  sudo ufw allow ssh
+   20  sudo shutdown now
+   21  sudo nano /etc/shells
+   22  sudo su sudo
+   23  sudo -i
+   24  logout
+   25  history
+   26  sudo nano /etc/shells
+   27  sudo adduser --disabled-password project-samson-git
+   28  sudo su git
+   29  sudo su project-samson-git
+   30  clear
+   31  sudo passwd --delete project-samson-git
+   32  sudo chsh project-samson-git -s $(which git-shell)
+   33  cd /home/project-samson-git
+   34  sudo mkdir ios-backup-extractor.git
+   35  cd ios-backup-extractor.git && sudo git init --bare && cd ..
+   36  sudo chown -R git.git ios-backup-extractor.git/
+   37  sudo chown -R project-samson-git.git ios-backup-extractor.git/
+   38  sudo chown -R project-samson-git.project-samson-git ios-backup-extractor.git/
+   39  clear
+   40  ls
+   41  sudo mkdir techband.git
+   42  cd techband.git/
+   43  sudo git init --bare && cd ..
+   44  sudo chown -R project-samson-git.project-samson-git techband.git/
+   45  cd techband.git/
+   46  ls
+   47  cd ..
+   48  ls
+   49  sudo rm -rf techband.git/
+   50  ls
+   51  sudo rm -rf ios-backup-extractor.git/
+   52  sudo ufw allow
+   53  sudo ufw status
+   54  cd ~
+   55  ls
+   56  cd
+   57  sudo apt update
+   58  sudo apt install mysql-server
+   59  mysqld --initialize
+   60  sudo mysql
+   61  sudo netstat -plutn | grep 3306
+   62  sudo ufw allow 3306
+   63  sudo ufw status
+   64  suddo mysql
+   65  sudo mysql
+   66  sudo su
+   67  mysql -u root -p
+   68  sudo ufw disable 
+   69  nano /etc/mysql/mariadb.conf.d/50-server.cnf // bind 0.0.0.0
+   70  nano /etc/mysql/mariadb.conf.d/50-server.cnf
+   71  cd /etc
+   72  ls
+   73  cd mysql/
+   74  ls
+   75  nano ./my.cnf
+   76  nano conf.d/
+   77  cd conf.d/
+   78  ls
+   79  nano mysql.cnf
+   80  nano mysqldump.cnf
+   81  cd /etc/my.cnf
+   82  ..
+   83  cd ..
+   84  cd /etc/
+   85  nano my.cnf
+   86  cd ..
+   87  nano /etc/mysql/mysql.conf.d/mysqld.cnf
+   88  sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+   89  service mysql restart
+   90  sudo service mysql restart
+   91  mysql -u root -p
+   92  sudo mysql -u root -p
+   93  sudo apt update
+   94  sudo apt upgrade
+   95  sudo reboot
+   96  sudo ufw status
+   97  sudo ufw enable
+   98  sudo ufw status
+   99  sudo wget -qO- https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+  100  sudo add-apt-repository "$(wget -qO- https://packages.microsoft.com/config/ubuntu/18.04/mssql-server-2019.list)"
+  101  sudo apt install mssql-server
+  102  /opt/mssql/bin/mssql-conf setup
+  103  sudo /opt/mssql/bin/mssql-conf setup
+  104  systemctl status mssql-server.service 
+  105  curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+  106  curl https://packages.microsoft.com/config/ubuntu/18.04/prod.list | sudo tee /etc/apt/sources.list.d/msprod.list
+  107  sudo apt update 
+  108  sudo sudo ACCEPT_EULA=Y apt install mssql-tools unixodbc-dev
+  109  echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bash_profile
+  110  ls
+  111  cd ~/
+  112  ls -all
+  113  nano .bash_profile 
+  114  echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
+  115  source ~/.bashrc
+  116  sudo ufw allow 1433
+  117  ~/.bash_profile
+  118  sudo nano ~/.bash_profile
+  119  sqlcmd -S 127.0.0.1 -U SA 
+  120  ls
+  121  cd ..
+  122  ls
+  123  cd ..
+  124  ls
+  125  cd ..
+  126  ls
+  127  cd tmp/
+  128  ;s
+  129  ls
+  130  cd ..
+  131  cd home/
+  132  cd ondrej/
+  133  ls
+  134  sqlcmd -S 127.0.0.1 -U SA 
+  135  sudo ufw allow from any to any port 1433 proto tcp
+  136  sudo ufw allow from any to any port 1434 proto tcp
+  137  sqlcmd -S localhost -U SA
+  138  sqlcmd -S localhost -U SA
+  139  sqlcmd -S localhost -U SA
+  140  systemctl restart mssql
+  141  systemctl restart mssql
+  142  sudo systemctl restart mssql
+  143  sudo systemctl mssql restart
+  144  sudo systemctl status
+  145  sudo systemctl restart mssql-server.service 
+  146  shutdown now
+  147  ls -all
+  148  ls
+  149  sudo curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+  150  ls
+  151  ls
+  152  sudo apt-get install -y nodejs
+  153   node -v
+  154   npm -v
+  155   sudo apt install nginx
+  156   sudo apt install nginx
+  157   sudo apt install nginx
+  158   sudo apt install nginx
+  159  ls
+  160  sudo apt install nginx
+  161  sudo apt install nginx
+  162   systemctl status nginx
+  163   sudo ufw allow 'Nginx HTTP'
+  164  y
+  165  sudo reboot
+  166   sudo apt install nginx
+  167   sudo ufw allow 'Nginx HTTP'
+  168   systemctl status nginx
+  169  sudo npm install pm2@latest -g
+  170  sudo apt get install git
+  171  sudo apt-get install git
+  172   mkdir Web
+  173  ls
+  174  cd Web/
+  175   mkdir sub
+  176  mkdir backup
+  177  mkdir main
+  178  cd main/
+  179  git clone https://github.com/bandiasek/databazy-zadanie.git
+  180  ls
+  181  cd databazy-zadanie/
+  182  cd client/
+  183  npm i
+  184  npm run build
+  185   npm audit fix
+  186  ls
+  187  cd ..
+  188  ls
+  189  cd ..
+  190  rmdir -R databazy-zadanie/
+  191  rm -R databazy-zadanie/
+  192  git clone https://github.com/bandiasek/databazy-zadanie.git
+  193  ls
+  194  git rm databazy-zadanie/
+  195  rm databazy-zadanie/
+  196  rm -f databazy-zadanie/
+  197  rm -R databazy-zadanie/
+  198  sudo rm -R databazy-zadanie/
+  199  git clone https://github.com/bandiasek/databazy-zadanie.git
+  200  cd databazy-zadanie/
+  201  ls
+  202  npm init
+  203  git pull
+  204  pm2 start index.js 
+  205   cd /etc/nginx/sites-available/nano
+  206  cd ~
+  207   cd /etc/nginx/sites-available/nano
+  208   cd /etc/nginx/sites-available/
+  209  ls
+  210  nano default 
+  211  rm default 
+  212  ls
+  213  rm sudo rm /etc/nginx/sites-available/default
+  214   sudo nano /etc/nginx/sites-available/default
+  215   sudo systemctl restart nginx
+  216  nano default 
+  217  sudo nano default 
+  218  cd ~
+  219  cd Web/
+  220  cd ma
+  221  cd main/
+  222  cd databazy-zadanie/
+  223  pm2 start index.js 
+  224  cd /etc/nginx/sites-available/
+  225  sudo nano default 
+  226  sudo systemctl restart nginx.service 
+  227  cd ~
+  228  cd Web/main/databazy-zadanie/
+  229   pm2 restart
+  230   pm2 restart index.js 
+  231  ls
+  232  cd build/
+  233  ls
+  234  cd ..
+  235  node index.js 
+  236  npm install
+  237   pm2 restart index.js 
+  238  node index.js 
+  239  pm2 stop index.js 
+  240  node index.js 
+  241  sudo systemctl restart nginx
+  242  reboot
+  243  sudo reboot
+  244  sudo systemctl status nginx.service 
+  245  sudo systemctl start nginx.service 
+  246  sudo systemctl status nginx.service 
+  247  sudo shutdown
+  248  sudo shutdown now
+  249  sudo systemctl status nginx.service 
+  250  nginx -t -c /etc/nginx/nginx.conf
+  251  sudo nginx -t -c /etc/nginx/nginx.conf
+  252  cd /etc/nginx/sites-available/
+  253  sudo nano default 
+  254  sudo systemctl status nginx.service 
+  255  sudo systemctl start nginx.service 
+  256  sudo systemctl status nginx.service 
+  257  cd ~/Web/main/databazy-zadanie/
+  258  pm2 start index.js 
+  259   pm2 restart index.js 
+  260  cd /etc/nginx/sites-available/
+  261  sudo nano default 
+  262  cd ~/Web/main/databazy-zadanie/
+  263  sudo systemctl restart nginx.service 
+  264  pm2 restart index.js
+  265  sudo ufw disable 
+  266  sudo ufw enable
+  267  cd Web/main/databazy-zadanie/
+  268  pm2 start index.js 
+  269  pm2 stop index.js 
+  270  git pull
+  271  pm2 start index.js 
+  272  pm2 stop index.js 
+  273  git pull
+  274  pm2 start index.js 
+  275  cd Web/main/databazy-zadanie/
+  276  pm2 start index.js 
+  277   pm2 startup systemd
+  278  sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u ubuntu --hp /home/ubuntu
+  279   pm2 save
+  280   sudo systemctl start pm2-ubuntu
+  281   sudo systemctl start pm2
+  282  sudo systemctl status pm2-ubuntu
+  283  sudo reboot
+  284   pm2 startup systemd
+  285  sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u ondrej --hp /home/ondrej
+  286   pm2 save
+  287  sudo systemctl start pm2-ubuntu
+  288  sudo systemctl start pm2
+  289  sudo systemctl status pm2-ubuntu
+  290  reboot
+  291  sudo reboot
+  292  cd Web/main/databazy-zadanie/
+  293  pm2 start index.js 
+  294  pm2 delete all
+  295  pm2 start index.js 
+  296  history
+  297  .ls
+  298  ls
+  299  history >> SXT4_4SA2_BrendzaO_UbuServ_CustomZadanie.txt
